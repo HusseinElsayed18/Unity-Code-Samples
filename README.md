@@ -42,3 +42,9 @@ This repository contains selected code samples rather than a complete Unity proj
 License and Attribution
 
 Code and assets are subject to their applicable licenses and sharing permissions. Original authors are credited where appropriate.
+
+<p align="center">
+  <a href="https://husseinelsayed18.github.io">🌐 Portfolio</a> &nbsp;&bull;&nbsp;
+  <a href="https://www.youtube.com/@egygamesstudios">📺 Egy Games Studios YouTube</a> &nbsp;&bull;&nbsp;
+  <a href="mailto:husseinelsayed4g@gmail.com">📧 Email Me</a>
+</p>
