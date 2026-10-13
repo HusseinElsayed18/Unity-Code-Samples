@@ -9,6 +9,7 @@ Unity
 C#
 Extenject
 Project Structure
+```text
 Unity-Extenject-Code-Samples/
 ├── README.md
 └── Core/
@@ -16,7 +17,7 @@ Unity-Extenject-Code-Samples/
         ├── AdsInstaller.cs
         ├── AudioInstaller.cs
         └── GameInstaller.cs
-
+```
 Installers
 AdsInstaller
 
