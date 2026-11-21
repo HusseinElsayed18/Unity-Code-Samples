@@ -1,47 +1,57 @@
-# Unity Extenject Installer Samples
+# Unity C# Code Samples
 
-## Overview
+This repository contains selected C# code samples from my Unity game development projects. The samples demonstrate practical approaches to building modular, maintainable, and reusable game systems.
 
-This repository contains selected C# code samples from a Unity project, focusing on Extenject installers and dependency injection configuration.
+Code Samples
+1. CustomizationControlPopup
 
-Technologies
-Unity
-C#
-Extenject
+An interactive UI customization system that allows players to personalize their in-game controls.
+
+Key concepts:
+
+Dynamic UI control customization.
+Position, scale, and transparency adjustment.
+Screen and layout presets.
+Save and reset functionality.
+Event-driven programming.
+Service-based architecture.
+2. AdsInstaller
+
+A dependency injection installer built with Zenject to configure and register multiple advertising providers.
+
+Key concepts:
+
+Dependency injection using Zenject.
+Interface-based service registration.
+Multiple advertising provider support.
+ID-based bindings to distinguish implementations.
+Centralized service configuration.
+Separation of advertising integration and game-level advertising logic.
+
+The installer registers:
+
+AdsService for Unity Ads.
+LevelPlayAdsService for LevelPlay Ads.
+GameAdsService as the main game-level advertising service.
 Project Structure
+
 ```text
-Unity-Extenject-Code-Samples/
-├── README.md
-└── Core/
-    └── Installers/
-        ├── AdsInstaller.cs
-        ├── AudioInstaller.cs
-        └── GameInstaller.cs
+Assets/
+└── Scripts/
+    ├── CustomizationControlPopup.cs
+    └── AdsInstaller.cs
 ```
-Installers
-AdsInstaller
 
-Configures dependencies related to advertising services and ad integration.
+Technologies & Concepts
+Unity Engine
+C#
+Zenject (Dependency Injection)
+Object-Oriented Programming
+Interface-Based Design
+Event-Driven Architecture
+Modular Game Systems
 
-AudioInstaller
-
-Configures dependencies related to the audio system, such as audio services or audio managers.
-
-GameInstaller
-
-Configures dependencies required by the core game systems.
-
-Purpose
-
-The purpose of this repository is to demonstrate code organization and dependency injection patterns in Unity using Extenject.
-
-Notes
-
-This repository contains selected code samples rather than a complete Unity project. The scripts may require the original project setup and Extenject package to work.
-
-License and Attribution
-
-Code and assets are subject to their applicable licenses and sharing permissions. Original authors are credited where appropriate.
+Note: These are selected code samples extracted from larger Unity projects. Some referenced classes, interfaces, and configuration objects belong to their respective project architectures and are not included as standalone implementations.
 
 <p align="center">
   <a href="https://husseinelsayed18.github.io">🌐 Portfolio</a> &nbsp;&bull;&nbsp;
