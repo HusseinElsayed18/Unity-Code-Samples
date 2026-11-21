@@ -1,39 +1,43 @@
+
 # Unity C# Code Samples
 
-This repository contains selected C# code samples from my Unity game development projects. The samples demonstrate practical approaches to building modular, maintainable, and reusable game systems.
+A collection of selected C# code samples from my Unity game development projects, showcasing practical approaches to building modular, maintainable, and reusable game systems.
 
-Code Samples
-1. CustomizationControlPopup
+## 📂 Code Samples
+
+### 1. CustomizationControlPopup
 
 An interactive UI customization system that allows players to personalize their in-game controls.
 
-Key concepts:
+**Key Features:**
+- Dynamic UI control customization.
+- Position, scale, and transparency adjustment.
+- Screen and layout presets.
+- Save and reset functionality.
+- Event-driven programming.
+- Service-based architecture.
 
-Dynamic UI control customization.
-Position, scale, and transparency adjustment.
-Screen and layout presets.
-Save and reset functionality.
-Event-driven programming.
-Service-based architecture.
-2. AdsInstaller
+### 2. AdsInstaller
 
 A dependency injection installer built with Zenject to configure and register multiple advertising providers.
 
-Key concepts:
+**Key Features:**
+- Dependency injection using Zenject.
+- Interface-based service registration.
+- Support for multiple advertising providers.
+- ID-based bindings to distinguish implementations.
+- Centralized service configuration.
+- Separation of advertising integration from game-level advertising logic.
 
-Dependency injection using Zenject.
-Interface-based service registration.
-Multiple advertising provider support.
-ID-based bindings to distinguish implementations.
-Centralized service configuration.
-Separation of advertising integration and game-level advertising logic.
+**Service Registration:**
 
-The installer registers:
+| Service | Purpose |
+| :--- | :--- |
+| `AdsService` | Unity Ads integration |
+| `LevelPlayAdsService` | LevelPlay Ads integration |
+| `GameAdsService` | Main game-level advertising service |
 
-AdsService for Unity Ads.
-LevelPlayAdsService for LevelPlay Ads.
-GameAdsService as the main game-level advertising service.
-Project Structure
+## 📁 Project Structure
 
 ```text
 Assets/
@@ -42,19 +46,22 @@ Assets/
     └── AdsInstaller.cs
 ```
 
-Technologies & Concepts
-Unity Engine
-C#
-Zenject (Dependency Injection)
-Object-Oriented Programming
-Interface-Based Design
-Event-Driven Architecture
-Modular Game Systems
+## 🛠 Technologies & Concepts
 
-Note: These are selected code samples extracted from larger Unity projects. Some referenced classes, interfaces, and configuration objects belong to their respective project architectures and are not included as standalone implementations.
+- Unity Engine
+- C#
+- Zenject (Dependency Injection)
+- Object-Oriented Programming (OOP)
+- Interface-Based Design
+- Event-Driven Architecture
+- Modular Game Systems
 
-<p align="center">
-  <a href="https://husseinelsayed18.github.io">🌐 Portfolio</a> &nbsp;&bull;&nbsp;
-  <a href="https://www.youtube.com/@egygamesstudios">📺 Egy Games Studios YouTube</a> &nbsp;&bull;&nbsp;
-  <a href="mailto:husseinelsayed4g@gmail.com">📧 Email Me</a>
-</p>
+## 📝 Note
+
+These are selected code samples extracted from larger Unity projects. Some referenced classes, interfaces, and configuration objects belong to their respective project architectures and are not included as standalone implementations.
+
+## 🔗 Connect With Me
+
+- 🌐 [Portfolio](https://husseinelsayed18.github.io)
+- 📺 [Egy Games Studios YouTube](https://www.youtube.com/@egygamesstudios)
+- 📧 [Email Me](mailto:husseinelsayed4g@gmail.com)
