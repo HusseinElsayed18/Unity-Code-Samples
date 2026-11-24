@@ -78,6 +78,7 @@ public class MatchmakingPopup : UIPopup
 
             if (connection != MatchmakingState.Connected)
             {
+                SetStatus("Disconnected");
                 DebugX.ChainedRichText.Text("Disconnected")
                     .Color("red")
                     .LogError();
@@ -96,6 +97,7 @@ public class MatchmakingPopup : UIPopup
         catch (Exception e)
         {
            // Debug.LogException(e);
+           SetStatus("FailedToCreateRoom");
             DebugX.ChainedRichText.Text("Failed to create room")
                 .Append(e.Message)
                 .Color("red")
@@ -127,6 +129,7 @@ public class MatchmakingPopup : UIPopup
 
             if (connection != MatchmakingState.Connected)
             {
+                SetStatus("Disconnected");
                 DebugX.ChainedRichText.Text("Disconnected")
                     .Color("red")
                     .LogError();
@@ -137,6 +140,7 @@ public class MatchmakingPopup : UIPopup
             
             if (result == MatchmakingState.InRoom)
             {
+                SetStatus("JoinedRoom");
                 DebugX.ChainedRichText.Text("Joined room successfully!")
                     .Color("cyan")
                     .Log();
@@ -144,6 +148,7 @@ public class MatchmakingPopup : UIPopup
         }
         catch (Exception e)
         {
+            SetStatus("FailedToJoinRoom");
             DebugX.ChainedRichText.Text("Failed to join room")
                 .Append(e.Message)
                 .Color("red")
